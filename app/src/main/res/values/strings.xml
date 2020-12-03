@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Houserent</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="todo">TODO</string>
+    <string name="properties">PROPERTIES</string>
+    <string name="facebook_app_id">2589782817933881</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="fb_login_protocol_scheme">fb2589782817933881</string>
+    <string name="house_des">House Rent is India\'s No 1 real estate Application started
+        in 2020 by Meetanshi Pvt.Ltd.It is a one-stop destination for all the property needs
+        of home buyers,seller,renters and real estate agents.The Application lists lacs
+        of properties for sale and rent as well as newly launched projects.User can
+        advertise,search and buy or sell properties.</string>
+
+</resources>

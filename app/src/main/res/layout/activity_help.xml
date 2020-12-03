@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/text_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Need Help ?"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:id="@+id/text_hrh_qn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:text="How to rent House?"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_hrh_ans"
+        android:layout_marginTop="130dp"
+        android:text="To rent house you have to first click on 'For Rent' Button then click on house you want to rent after that you can contact owner/dealer by clicking on 'contact' button"
+        android:layout_marginStart="10dp"
+        />
+    <TextView
+        android:id="@+id/text_hsh_qn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to sell House?"
+        android:layout_marginTop="190dp"
+        android:layout_marginStart="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_hsh_ans"
+        android:layout_marginTop="220dp"
+        android:text="To sell House you have to first click on 'For Sell' button then fill the details of the your house you want to sell in the form select the photos of the house then upload it by clicking on 'upload' button ,your house is now now visible to your customers they can contact you.."
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/text_help_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact us"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/contact_us_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginStart="10dp"
+        android:text="+91 8200180732"
+        android:textColor="@color/colorgreen"
+        android:textIsSelectable="true"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/contact_us_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_marginStart="10dp"
+        android:text="ashishkuriya18@gmail.com"
+        android:textIsSelectable="true"
+        android:clickable="true"
+        />
+</RelativeLayout>
